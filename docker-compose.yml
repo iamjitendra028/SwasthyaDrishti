@@ -1,0 +1,12 @@
+﻿services:
+  chroma:
+    image: chromadb/chroma:1.0.15
+    container_name: swasthya-drishti-chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/chroma:/data
+    environment:
+      IS_PERSISTENT: "TRUE"
+      PERSIST_DIRECTORY: /data
+    restart: unless-stopped

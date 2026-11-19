@@ -1,0 +1,30 @@
+{
+  "name": "swasthya-drishti",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "api": "node server/index.js",
+    "dev:all": "node server/dev.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.4.2",
+    "@langchain/google-genai": "^2.3.6",
+    "@langchain/textsplitters": "^1.0.2",
+    "@ultralytics/yolo": "^0.0.60",
+    "@vitejs/plugin-react": "latest",
+    "chromadb": "^3.5.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.3.0",
+    "lucide-react": "^0.468.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "^2.15.0",
+    "vite": "latest"
+  }
+}
